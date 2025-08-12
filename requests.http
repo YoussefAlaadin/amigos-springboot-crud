@@ -12,3 +12,5 @@ Content-Type: application/json
   "name": "Youssef Alaa",
   "techStack": "Java, Spring Boot, Microservices"
 }
+#### GET a specific resource
+GET  http://localhost:8080/software-engineer/2

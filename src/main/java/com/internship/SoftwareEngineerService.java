@@ -19,4 +19,7 @@ public class SoftwareEngineerService {
     public List<SoftwareEngineer> getAllSoftwareEngineers() {
         return softwareEngineerRepo.findAll();
     }
+    public SoftwareEngineer getSoftwareEngineerById(Integer id){
+        return softwareEngineerRepo.findById(id).orElse(null);
+    }
 }
