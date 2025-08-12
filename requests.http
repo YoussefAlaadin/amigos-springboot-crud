@@ -12,5 +12,17 @@ Content-Type: application/json
   "name": "Youssef Alaa",
   "techStack": "Java, Spring Boot, Microservices"
 }
-#### GET a specific resource
+### GET a specific resource
 GET  http://localhost:8080/software-engineer/2
+
+###  DELETE a specific resource
+DELETE http://localhost:8080/software-engineer/2
+
+### PUT request to update a specific resource
+PUT http://localhost:8080/software-engineer/1
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "techStack": "React, Node.js, Express"
+}
