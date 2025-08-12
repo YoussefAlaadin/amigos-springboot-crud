@@ -1,0 +1,14 @@
+### GET request to example server
+GET http://localhost:8080
+
+### POST request to example server with JSON body
+GET  http://localhost:8080/software-engineer
+###
+
+POST http://localhost:8080/software-engineer
+Content-Type: application/json
+
+{
+  "name": "Youssef Alaa",
+  "techStack": "Java, Spring Boot, Microservices"
+}
